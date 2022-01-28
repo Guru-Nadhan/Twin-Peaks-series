@@ -1,13 +1,13 @@
-const card = document.querySelectorAll('.hire-us-card');
-const cardContent = document.querySelectorAll('.hire-us-content');
+const card = document.querySelectorAll('.chars-card');
+const cardContent = document.querySelectorAll('.chars-content');
 
 
-const firstJob=document.querySelector('.first-job');
-const secondJob=document.querySelector('.second-job');
-const thirdJob=document.querySelector('.third-job');
-const firstJobRoles=document.querySelector('.first-job-roles');
-const secondJobRoles=document.querySelector('.second-job-roles');
-const thirdJobRoles=document.querySelector('.third-job-roles');
+const first=document.querySelector('.first-ssn');
+const second=document.querySelector('.second-ssn');
+const third=document.querySelector('.third-ssn');
+const firstSeason=document.querySelector('.first-season');
+const secondSeason=document.querySelector('.second-season');
+const thirdSeason=document.querySelector('.third-season');
 
 // card info in the info and form section
 for (let i = 0; i < card.length; i++) {
@@ -17,25 +17,25 @@ for (let i = 0; i < card.length; i++) {
     });
 }
 
-secondJobRoles.style.display="none";
-thirdJobRoles.style.display="none";
+secondSeason.style.display="none";
+thirdSeason.style.display="none";
 
-$(document).on('click','.jobs', function(){
+$(document).on('click','.seasons', function(){
   $(this).addClass('active').siblings().removeClass('active');
-  if(firstJob.classList.contains('active')){
-    firstJobRoles.style.display="";
-    secondJobRoles.style.display="none";
-    thirdJobRoles.style.display="none";
+  if(first.classList.contains('active')){
+    firstSeason.style.display="";
+    secondSeason.style.display="none";
+    thirdSeason.style.display="none";
   }
-  else if(secondJob.classList.contains('active')){
-    firstJobRoles.style.display="none";
-    secondJobRoles.style.display="";
-    thirdJobRoles.style.display="none";
+  else if(second.classList.contains('active')){
+    firstSeason.style.display="none";
+    secondSeason.style.display="";
+    thirdSeason.style.display="none";
   }
-  else if(thirdJob.classList.contains('active')){
-    firstJobRoles.style.display="none";
-    secondJobRoles.style.display="none";
-    thirdJobRoles.style.display="";
+  else if(third.classList.contains('active')){
+    firstSeason.style.display="none";
+    secondSeason.style.display="none";
+    thirdSeason.style.display="";
   }
   
 })

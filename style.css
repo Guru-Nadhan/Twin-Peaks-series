@@ -305,7 +305,7 @@ body {
   justify-content: space-around;
   align-items: flex-start;
 }
-.hire-us-card {
+.chars-card {
   position: relative;
   width: min-content;
   height: 25vh;
@@ -325,7 +325,7 @@ body {
   border-radius: 10px;
 }
 
-.hire-us-card .hire-us-image {
+.chars-card .chars-image {
   position: relative;
   /* width: 15vw; */
   /* background-color: white; */
@@ -339,7 +339,7 @@ body {
   z-index: 1;
 }
 
-.hire-us-card .hire-us-image img {
+.chars-card .chars-image img {
   /* max-width: 100%; */
   /* width: 180px; */
   height: 24vh;
@@ -349,7 +349,7 @@ body {
   /* border-radius: 15px; */
 }
 
-.hire-us-content {
+.chars-content {
   position: relative;
   top: -21vh;
   padding: 0px 12px;
@@ -361,11 +361,11 @@ body {
   font-size: 0.9rem;
   font-family: "Poppins", sans-serif;
 }
-.hire-us-content h3 {
+.chars-content h3 {
   text-transform: uppercase;
   margin-bottom: 2vh;
 }
-.hire-us-content p {
+.chars-content p {
   text-align: center;
   font-size: 1rem;
   font-family: "Signika", sans-serif;
@@ -406,7 +406,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-.jobs {
+.seasons {
   width: 100%;
   text-align: center;
   cursor: pointer;
@@ -427,7 +427,7 @@ body {
   width: 60vw;
   padding-left: 3vw;
 }
-.job-roles-content {
+.episodes-content {
   display: flex;
   flex-wrap: wrap;
   row-gap: 1vh;
@@ -435,7 +435,7 @@ body {
   justify-content: start;
   align-items: center;
 }
-.job-roles-content > div {
+.episodes-content > div {
   text-transform: capitalize;
   font-family: "Signika", sans-serif;
   margin: 1rem;
@@ -458,4 +458,6 @@ body {
 }
 .footer-contents {
   text-align: center;
+  letter-spacing: 3px;
+  word-spacing: 3px;
 }
